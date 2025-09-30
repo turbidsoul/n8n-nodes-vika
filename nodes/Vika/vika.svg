@@ -1,0 +1,43 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="30" cy="30" r="30" fill="#7B68EE"/>
+  
+  <!-- 表格图标 -->
+  <g transform="translate(12, 12)">
+    <!-- 外框 -->
+    <rect x="2" y="2" width="32" height="32" rx="4" fill="white" stroke="none"/>
+    
+    <!-- 表格线条 -->
+    <!-- 水平线 -->
+    <line x1="2" y1="10" x2="34" y2="10" stroke="#7B68EE" stroke-width="1.5"/>
+    <line x1="2" y1="18" x2="34" y2="18" stroke="#7B68EE" stroke-width="1"/>
+    <line x1="2" y1="26" x2="34" y2="26" stroke="#7B68EE" stroke-width="1"/>
+    
+    <!-- 垂直线 -->
+    <line x1="10" y1="2" x2="10" y2="34" stroke="#7B68EE" stroke-width="1"/>
+    <line x1="18" y1="2" x2="18" y2="34" stroke="#7B68EE" stroke-width="1"/>
+    <line x1="26" y1="2" x2="26" y2="34" stroke="#7B68EE" stroke-width="1"/>
+    
+    <!-- 数据点 -->
+    <circle cx="6" cy="14" r="1.5" fill="#7B68EE"/>
+    <circle cx="14" cy="14" r="1.5" fill="#7B68EE"/>
+    <circle cx="22" cy="14" r="1.5" fill="#7B68EE"/>
+    <circle cx="30" cy="14" r="1.5" fill="#7B68EE"/>
+    
+    <circle cx="6" cy="22" r="1.5" fill="#9370DB"/>
+    <circle cx="14" cy="22" r="1.5" fill="#9370DB"/>
+    <circle cx="22" cy="22" r="1.5" fill="#9370DB"/>
+    <circle cx="30" cy="22" r="1.5" fill="#9370DB"/>
+    
+    <circle cx="6" cy="30" r="1.5" fill="#BA55D3"/>
+    <circle cx="14" cy="30" r="1.5" fill="#BA55D3"/>
+    <circle cx="22" cy="30" r="1.5" fill="#BA55D3"/>
+    <circle cx="30" cy="30" r="1.5" fill="#BA55D3"/>
+  </g>
+  
+  <!-- 维格标识 -->
+  <g transform="translate(42, 42)">
+    <circle cx="6" cy="6" r="6" fill="white"/>
+    <text x="6" y="9" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#7B68EE">V</text>
+  </g>
+</svg>
