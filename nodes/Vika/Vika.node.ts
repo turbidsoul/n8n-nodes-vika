@@ -1,3 +1,5 @@
+/* eslint-disable n8n-nodes-base/node-param-description-miscased-id */
+/* eslint-disable n8n-nodes-base/node-param-collection-type-unsorted-items */
 import type {
 	IExecuteFunctions,
 	INodeExecutionData,
@@ -64,6 +66,7 @@ export class VikaNode implements INodeType {
 						resource: ['record'],
 					},
 				},
+				// eslint-disable-next-line n8n-nodes-base/node-param-options-type-unsorted-items
 				options: [
 					{
 						name: '获取记录',
@@ -280,6 +283,7 @@ export class VikaNode implements INodeType {
 							},
 						],
 						default: 'json',
+						// eslint-disable-next-line n8n-nodes-base/node-param-description-miscased-json
 						description: '单元格中值的类型，默认为json类型。指定为string时，所有值都会自动转换为字符串格式',
 					},
 					{
